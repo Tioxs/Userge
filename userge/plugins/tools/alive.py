@@ -22,7 +22,7 @@ async def alive(message: Message):
 
        __Oluruna bırakırım Olmazsa bırakırım__
 
-• **Kanalım** : [whosaidaesthetic](https://t.me/whosaidaesthetic
+• **Kanalım** : [whosaidaesthetic](https://t.me/whosaidaesthetic)
 """
 
     await message.client.send_message(message.chat.id, output, disable_web_page_preview=True)
