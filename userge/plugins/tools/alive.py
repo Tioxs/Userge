@@ -20,19 +20,19 @@ async def alive(message: Message):
     await message.delete()
     await sendit(message)
     output = f"""
-**USERGE is Up and Running**
+**Intiqam userbot çalışıyor**
 
-       __Durable as a Serge__
+       __Oluruna bırakırım Olmazsa bırakırım__
 
-• **uptime** : `{userge.uptime}`
-• **python version** : `{versions.__python_version__}`
-• **pyrogram version** : `{versions.__pyro_version__}`
-• **userge version** : `{get_version()}`
-• **unofficial enabled** : `{Config.LOAD_UNOFFICIAL_PLUGINS}`
-• **license** : {versions.__license__}
-• **copyright** : {versions.__copyright__}
-• **repo** : [Userge]({Config.UPSTREAM_REPO})
+• **Kanalım** : [whosaidaesthetic](https://t.me/whosaidaesthetic
 """
+
+
+
+
+
+
+
     await message.client.send_message(message.chat.id, output, disable_web_page_preview=True)
 
 
